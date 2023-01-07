@@ -29,6 +29,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <errno.h>
+#include <sys/wait.h>
 
 #ifndef SLAPD_OVER_SMBKRB5PWD
 #define SLAPD_OVER_SMBKRB5PWD SLAPD_MOD_DYNAMIC
